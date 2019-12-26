@@ -2,22 +2,43 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Sidebar</title>
+    <title>STAR WARS</title>
+    <link
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300"
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <ul class="sidebar">
-      <li class="sidebar-brand"><a href="">Star Wars</a></li>
-      <li><a href="#">Personages</a></li>
-      <li><a href="#">Planets</a></li>
-      <li><a href="#">Species</a></li>
-      <li><a href="#">Vehicles</a></li>
-      <li><a href="#">Starships</a></li>
-    </ul>
+    <section id="main">
+      <div class="container">
+        <form class="main_form">
+          <input class="person" />
+          <ul class="sidebar">
+            <li class="sidebar-brand"><a href="">Star Wars</a></li>
+            <li><a href="#">Personages</a></li>
+            <li><a href="#">Planets</a></li>
+            <li><a href="#">Species</a></li>
+            <li><a href="#">Vehicles</a></li>
+            <li><a href="#">Starships</a></li>
+          </ul>
+          <button type="button" class="btnSearch">
+            Пошук
+          </button>
+        </form>
+      </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>

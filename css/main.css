@@ -1,6 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  background-image: url("../img/TROS-prequel-comic.svg");
+  background-repeat: no-repeat;
+  background-size: 135%;
 }
 
 .btn-default {
@@ -76,4 +78,37 @@ body {
   height: 65px;
   font-size: 18px;
   line-height: 60px;
+}
+/* another */
+.person {
+  color: black;
+  display: inline-block;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.btnSearch {
+  color: black;
+  display: inline-block;
+}
+table {
+  width: 100%;
+  color: black;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #777;
+  color: white;
+}
+tr:hover {
+  background-color: #ddd;
 }
